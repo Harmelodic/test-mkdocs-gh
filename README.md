@@ -1,8 +1,8 @@
-# test-mkdocs
+# test-mkdocs-gh
 
-Testing out MkDocs with GitHub Pages
+Testing out MkDocs with GitHub Pages.
 
-Setup with:
+## Development
 
 - `python -m venv venv`
 - `source venv/bin/activate`
@@ -10,5 +10,7 @@ Setup with:
 - (`deactivate` to get out of the Python Virtual environment)
 
 Run locally with: `mkdocs serve`.
+
+## Deployment
 
 Deploy with: `mkdocs gh-deploy`.
